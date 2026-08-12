@@ -29,7 +29,5 @@ for word in words:
 print("\nMost Frequent word(s):")
 
 for word, count in word_counts.items():
-    if count  == max(word_counts.values()):
+    if count == max(word_counts.values()):
         print(f"'{word}' appeared {count} times")
-
-

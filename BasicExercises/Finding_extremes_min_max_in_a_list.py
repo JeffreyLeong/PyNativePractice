@@ -9,7 +9,7 @@ Given Input: nums = [45, 2, 89, 12, 7]
 
 Expected Output: Largest: 89 Smallest: 2
 """
-number_input = input("Enter numbers seperated by a space: ")
+number_input = input("Enter numbers separated by a space: ")
 nums = []
 
 for number in number_input.split():
